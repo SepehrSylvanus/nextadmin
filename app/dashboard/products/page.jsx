@@ -6,7 +6,7 @@ import Search from '@/app/ui/dashboard/search/search'
 import Pagination from '@/app/ui/dashboard/pagination/pagination'
 const ProductsPage = () => {
   return (
-    <div>
+    <div className={styles.container}>
        <div className={styles.top}>
         <Search placeholder='Search for a product...'/>
        <Link href={'/dashboard/products/add'}>
